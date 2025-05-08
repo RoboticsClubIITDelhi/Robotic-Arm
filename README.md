@@ -1,4 +1,7 @@
 # Robo Arm zen - Robotics Summer project 2025-26
+
+![](./photos/sample_foto_1.png)
+
 This repository is intended to manage the codebase for the **Robotics Arm summer project 2025-26** (part of robotics club). Ideally, it can be extended to include other related resources as well (CAD model, calculation(Matlab), Datasheet of the electronic components etc.) Over time, it will serve as both a proof of work and a **well-documented reference** to help others continue the project beyond its initial requirements
 
 ## Adjenda

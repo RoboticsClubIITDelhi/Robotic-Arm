@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/27/25||19:19:37" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="final" uid="final" version="357">
+<AssemblyFile name="final.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="asm_Arm1-1" uid="asm_Arm1-1" entityUid="asm_Arm1">
+<Transform>
+<Rotation>0.92133744812752372 0 -0.38876381863267878 -0.38876381863267884 0 -0.92133744812752361 0 0.99999999999999989 0</Rotation>
+<Translation>-0.16773448794320556 0.21390370543562037 0.42701029275776009</Translation>
+</Transform>
+<Instance name="washer_4x-1" uid="washer_4x-1" entityUid="washer_4x*:*Default">
+<Transform>
+<Rotation>-0.70931909751304867 2.1638839902079422e-16 0.70488752145521383 0 1 -2.7973829497939751e-16 -0.70488752145521383 -1.7933933143485949e-16 -0.70931909751304867</Rotation>
+<Translation>-0.090722437218039687 -0.0020256322558740436 0.04154505084734654</Translation>
+</Transform>
+</Instance>
+<Instance name="A1P3.step-1" uid="A1P3.step-1" entityUid="A1P3.step*:*Default">
+<Transform>
+<Rotation>0.62727585841818523 0 -0.77879714781561005 0 1 0 0.77879714781561005 0 0.62727585841818523</Rotation>
+<Translation>-0.066294936346588507 -0.0037256322558281707 0.065819937291216893</Translation>
+</Transform>
+</Instance>
+<Instance name="A1P1.step-1" uid="A1P1.step-1" grounded="true" entityUid="A1P1.step*:*Default">
+<Transform>
+<Rotation>-0.3247271181523006 0 0.94580774935316625 0 0.99999999999999978 0 -0.94580774935316603 0 -0.3247271181523006</Rotation>
+<Translation>0.10050042699043768 0.0076743677441725167 0.14634053804058939</Translation>
+</Transform>
+</Instance>
+<Instance name="noWasher-1" uid="noWasher-1" entityUid="noWasher*:*Default">
+<Transform>
+<Rotation>0.87869486392854657 2.1638753877135023e-16 0.47738384566886316 -2.7575580303919046e-16 1 0 -0.47738384566886316 -1.7934663034671278e-16 0.87869486392854657</Rotation>
+<Translation>0.062979762642251524 0.0059743677441562171 0.17704981326534991</Translation>
+</Transform>
+</Instance>
+<Instance name="A1P2.step-1" uid="A1P2.step-1" entityUid="A1P2.step*:*Default">
+<Transform>
+<Rotation>0.75247577250159847 0 -0.65861992970006811 0 0.99999999999999989 0 0.658619929700068 0 0.75247577250159836</Rotation>
+<Translation>0.06162594497872162 0.0059743677442290477 0.17778532534022831</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="gripper servo mount.step-1" uid="gripper servo mount.step-1" entityUid="gripper servo mount.step*:*Default">
+<Transform>
+<Rotation>2.0460625350531959e-15 0 1 -5.3426559178669275e-16 1 0 -1 -5.3426559178669275e-16 2.0460625350531959e-15</Rotation>
+<Translation>0.026284223821600266 0.23822563820215523 0.39616877520033617</Translation>
+</Transform>
+</Instance>
+<Instance name="asm_Arm2-1" uid="asm_Arm2-1" entityUid="asm_Arm2">
+<Transform>
+<Rotation>0.017850840138351337 3.4996434061778491e-16 0.9998406610587286 -0.9998406610587286 -1.3209396313303701e-16 0.017850840138351337 1.3832007291319847e-16 -1 3.4755058945450159e-16</Rotation>
+<Translation>-0.37399713006274599 0.10987895384480421 0.52384801780567736</Translation>
+</Transform>
+<Instance name="A2P2.step-1" uid="A2P2.step-1" grounded="true" entityUid="A2P2.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.090577127485263309 0.13097924260534116 0.19096544776945409</Translation>
+</Transform>
+</Instance>
+<Instance name="A2P1.step-1" uid="A2P1.step-1" entityUid="A2P1.step*:*Default">
+<Transform>
+<Rotation>0.52707561945399295 -1.998243862512489e-16 0.84981838729059611 -2.0252103880047635e-16 1 3.6074565202911393e-16 -0.84981838729059611 -3.6224634059441689e-16 0.52707561945399295</Rotation>
+<Translation>0.053891998353980952 0.13267924260545544 0.22453930307669029</Translation>
+</Transform>
+</Instance>
+<Instance name="A2P3.step-1" uid="A2P3.step-1" entityUid="A2P3.step*:*Default">
+<Transform>
+<Rotation>0.95124245452190304 6.2849898352005454e-15 -0.30844414845340345 -2.8640825373417101e-15 1 1.1543590469391537e-14 0.30844414845340345 -1.0097343832769026e-14 0.95124245452190304</Rotation>
+<Translation>-0.15226595717613059 0.1326792426054148 0.3812139386738933</Translation>
+</Transform>
+</Instance>
+<Instance name="A2P4.step-1" uid="A2P4.step-1" entityUid="A2P4.step*:*Default">
+<Transform>
+<Rotation>-0.52707561945399228 -1.9982452759020145e-16 -0.84981838729059644 2.0252096525107373e-16 0.99999999999999989 -3.6074577272885029e-16 0.84981838729059656 -3.6224634170867029e-16 -0.52707561945399217</Rotation>
+<Translation>0.0024082544486479507 0.13267924260544234 0.21970211948493606</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="asm_Base-1" uid="asm_Base-1" grounded="true" entityUid="asm_Base">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.12975309320686279 -0.0041979486422950903 0.36465111442937076</Translation>
+</Transform>
+<Instance name="servo mount.step-3" uid="servo mount.step-3" entityUid="servo mount.step*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.0082215058133262436 0.014201706430949746 0.027275603421763772</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo SC15.step-2" uid="Servo SC15.step-2" entityUid="Servo SC15.step*:*Default">
+<Transform>
+<Rotation>-1 0 -1.6653345369377348e-16 -1.6653345369377348e-16 0 1 0 1 0</Rotation>
+<Translation>0.0082215058133262714 0.044201706430949755 0.093033546072561923</Translation>
+</Transform>
+</Instance>
+<Instance name="base plate.step-1" uid="base plate.step-1" grounded="true" entityUid="base plate.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0082215058133262298 0.012501706430949746 0.048275603421763735</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm 3 Part 2.step-1" uid="Arm 3 Part 2.step-1" entityUid="Arm 3 Part 2.step*:*Default">
+<Transform>
+<Rotation>0.8993468429711684 3.4799709054196683e-16 0.43723592720382987 0.43723592720382987 0 -0.8993468429711684 -3.1813494801981072e-16 1 -1.4153326739937486e-16</Rotation>
+<Translation>-0.0022784941866581254 0.044201706431001367 0.047375603421763723</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm 3 Part 3.step-1" uid="Arm 3 Part 3.step-1" entityUid="Arm 3 Part 3.step*:*Default">
+<Transform>
+<Rotation>0 1.6653345369377348e-16 -1.0000000000000002 -1 0 0 0 1.0000000000000002 1.6653345369377348e-16</Rotation>
+<Translation>-0.0022784941866737518 0.044201706430949741 0.049075603421763703</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_holder_2.step-2" uid="servo_holder_2.step-2" entityUid="servo_holder_2.step*:*Default">
+<Transform>
+<Rotation>3.8857805861880459e-16 0 -1 -1 0 -3.8857805861880459e-16 0 1 0</Rotation>
+<Translation>0.013433541516250064 0.042139071100096868 -0.019482339229034418</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo SC15.step-1" uid="Servo SC15.step-1" entityUid="Servo SC15.step*:*Default">
+<Transform>
+<Rotation>1 0 2.2204460492503126e-16 2.2204460492503126e-16 0 -1 0 1 0</Rotation>
+<Translation>0.0082215058133262298 0.044201706430949741 0.0035176607709656027</Translation>
+</Transform>
+</Instance>
+<Instance name="servo mount.step-1" uid="servo mount.step-1" entityUid="servo mount.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0082215058133262298 0.014201706430949746 0.069275603421763754</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_holder_2.step-1" uid="servo_holder_2.step-1" entityUid="servo_holder_2.step*:*Default">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>0.0030094701104024235 0.042139071100096882 0.11603354607256189</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Arm 3 Part 1.step-1" uid="Arm 3 Part 1.step-1" entityUid="Arm 3 Part 1.step*:*Default">
+<Transform>
+<Rotation>0.94558454509880097 0 0.32537650202541324 0.32537650202541324 0 -0.94558454509880097 0 1 0</Rotation>
+<Translation>-0.20319917707153048 0.18285033779707557 0.39286877520033614</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm2-1</Uid>
+<Uid>A2P1.step-1</Uid>
+</InstancePath>
+<Position>0 0.0016999999999999793 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>final</Uid>
+</InstancePath>
+<Position>-0.14853158739353656 0.06000375778865466 0.38616877520033638</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>asm_Arm2-1</Uid>
+<Uid>A2P1.step-1</Uid>
+</InstancePath>
+<Position>0 0.0016999999999999793 -0.08500000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>final</Uid>
+</InstancePath>
+<Position>-0.12153158739353656 0.03877482560052016 0.38786877520033636</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm2-1</Uid>
+<Uid>A2P4.step-1</Uid>
+</InstancePath>
+<Position>-0.0023580469795273229 0.0016999999999999793 -0.083437938763975011</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>Servo SC15.step-1</Uid>
+</InstancePath>
+<Position>0.010499999999999995 -0.025550000000000017 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>asm_Arm1-1</Uid>
+<Uid>A1P1.step-1</Uid>
+</InstancePath>
+<Position>-0.0063768124957165814 0.0016999999999999793 -0.021307630749754031</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>Servo SC15.step-2</Uid>
+</InstancePath>
+<Position>0.010499999999999995 -0.021299999999999986 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm1-1</Uid>
+<Uid>A1P1.step-1</Uid>
+</InstancePath>
+<Position>0 0.0016999999999999793 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>Servo SC15.step-2</Uid>
+</InstancePath>
+<Position>0.010499999999999995 -0.025550000000000017 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm1-1</Uid>
+<Uid>A1P3.step-1</Uid>
+</InstancePath>
+<Position>-0.00010410560541368463 0.0016999999999999793 -0.049999999999999989</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>Arm 3 Part 2.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000348 -0.17000000000000007</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>asm_Arm2-1</Uid>
+<Uid>A2P3.step-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>gripper servo mount.step-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0.030699999999999977 -0.021846232695971801</Position>
+<Axis>-1 0 3.0531133177191805e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm1-1</Uid>
+<Uid>A1P3.step-1</Uid>
+</InstancePath>
+<Position>-0.00010410560541362912 0.0016999999999999793 -0.24999999999999994</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gripper servo mount.step-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000022 0.0097000000000000142 -0.040366491873424004</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gripper servo mount.step-1</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0 -0.0099999999999999985</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm 3 Part 1.step-1</Uid>
+</InstancePath>
+<Position>0.20000000000000004 0.0016999999999999793 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gripper servo mount.step-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000022 0.0097000000000000142 -0.040366491873424004</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm2-1</Uid>
+<Uid>A2P2.step-1</Uid>
+</InstancePath>
+<Position>0.020666219726362706 0.0040000000000000036 -0.018891992013064712</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm 3 Part 1.step-1</Uid>
+</InstancePath>
+<Position>0 0.0016999999999999793 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm 3 Part 1.step-1</Uid>
+</InstancePath>
+<Position>0.20000000000000004 0.0016999999999999793 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>gripper servo mount.step-1</Uid>
+</InstancePath>
+<Position>0.0049999999999999489 0.0096999999999999864 -0.040366491873424011</Position>
+<Axis>-1 0 3.0531133177191805e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm 3 Part 1.step-1</Uid>
+</InstancePath>
+<Position>0.10000000000000002 0 -0.010339483085804457</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gripper servo mount.step-1</Uid>
+</InstancePath>
+<Position>0.0032999999999999696 0.018745637644865115 -0.0099999999999999985</Position>
+<Axis>-1 0 3.0531133177191805e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>asm_Arm2-1</Uid>
+<Uid>A2P4.step-1</Uid>
+</InstancePath>
+<Position>0.0033062188838721002 0.0016999999999999793 0.0015620612360249808</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>Servo SC15.step-1</Uid>
+</InstancePath>
+<Position>0.010499999999999995 0.021299999999999986 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm2-1</Uid>
+<Uid>A2P1.step-1</Uid>
+</InstancePath>
+<Position>0 0.0016999999999999793 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>servo mount.step-3</Uid>
+</InstancePath>
+<Position>-0.0057579426507981535 0.050000000000000003 0.02700000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Arm1-1</Uid>
+<Uid>A1P1.step-1</Uid>
+</InstancePath>
+<Position>0 0.0016999999999999793 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>asm_Base-1</Uid>
+<Uid>Servo SC15.step-2</Uid>
+</InstancePath>
+<Position>0.010499999999999995 -0.025550000000000017 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="asm_Arm1" uid="asm_Arm1" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="asm_Arm1.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A1P1.step-1</Uid>
+</InstancePath>
+<Position>-0.0063768124957165884 0 -0.021307630749754003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A1P2.step-1</Uid>
+</InstancePath>
+<Position>-0.085000000000000006 0.0017000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A1P1.step-1</Uid>
+</InstancePath>
+<Position>-0.017117124991433197 0.0017000000000000001 -0.046978761499508005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A1P2.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A1P2.step-1</Uid>
+</InstancePath>
+<Position>-0.17000000000000001 0.0017000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A1P3.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A1P3.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>washer_4x-1</Uid>
+</InstancePath>
+<Position>-0.034437957411642295 0.0097000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A1P1.step-1</Uid>
+</InstancePath>
+<Position>-0.017117124991433197 0.0017000000000000001 -0.046978761499508005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>noWasher-1</Uid>
+</InstancePath>
+<Position>-0.0015407142104909288 0.0034000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A1P1.step-1</Uid>
+</InstancePath>
+<Position>-0.0063768124957165884 0.0017000000000000001 -0.021307630749754003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>noWasher-1</Uid>
+</InstancePath>
+<Position>-0.0015407142104909288 0.0034000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A1P2.step-1</Uid>
+</InstancePath>
+<Position>-0.085000000000000006 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>washer_4x-1</Uid>
+</InstancePath>
+<Position>-0.034437957411642295 0.0080000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A1P3.step-1</Uid>
+</InstancePath>
+<Position>-0.0083421447236710355 0.0017000000000000001 -0.12643998422326405</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>washer_4x-1</Uid>
+</InstancePath>
+<Position>-0.034437957411642295 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="asm_Arm2" uid="asm_Arm2" version="128">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="asm_Arm2.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A2P2.step-1</Uid>
+</InstancePath>
+<Position>0.0093601489580616565 0.0017000000000000071 -0.0272982595648886</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A2P3.step-1</Uid>
+</InstancePath>
+<Position>0 0 -0.099999999999999964</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A2P1.step-1</Uid>
+</InstancePath>
+<Position>0 0 -0.08500000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A2P2.step-1</Uid>
+</InstancePath>
+<Position>0.0093601489580616565 0.0017000000000000071 -0.0272982595648886</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A2P2.step-1</Uid>
+</InstancePath>
+<Position>0.0093601489580616565 0.0017000000000000071 -0.0272982595648886</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>A2P4.step-1</Uid>
+</InstancePath>
+<Position>0.0033062188838721002 0 0.0015620612360249669</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A2P2.step-1</Uid>
+</InstancePath>
+<Position>0.020666219726362692 0.0040000000000000036 -0.018891992013064712</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A2P4.step-1</Uid>
+</InstancePath>
+<Position>-0.002358046979527316 0.0017000000000000071 0.086562061236025001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A2P1.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000071 -0.17000000000000004</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A2P2.step-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 -0.056028999999999995</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A2P2.step-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>A2P3.step-1</Uid>
+</InstancePath>
+<Position>0 0.0041500000000005144 -0.1999999999999999</Position>
+<Axis>2.8232618158004198e-15 1 8.9178475996264704e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="asm_Base" uid="asm_Base" version="222">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="asm_Base.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm 3 Part 3.step-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0.010900000000000005</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>-0.017000000000000001 0 0.0074999999999999997</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm 3 Part 3.step-1</Uid>
+</InstancePath>
+<Position>0.028299999999999999 0.0067000000000000046 0.0065000000000000023</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>-0.0040000000000000001 0 0.0074999999999999997</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm 3 Part 3.step-1</Uid>
+</InstancePath>
+<Position>0.028299999999999999 0.0066999999999999976 -0.0065000000000000023</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm 3 Part 2.step-1</Uid>
+</InstancePath>
+<Position>0.0056642658633994022 0.0017000000000000001 -0.084999999999999992</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm 3 Part 3.step-1</Uid>
+</InstancePath>
+<Position>0.0095500000000000029 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm 3 Part 2.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm 3 Part 3.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000001 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>0 0.0017000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo mount.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000001 0 0.021000000000000005</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo mount.step-1</Uid>
+</InstancePath>
+<Position>0 0 -0.012500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>0.012500000000000001 0 0.021000000000000005</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo mount.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.012500000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo mount.step-1</Uid>
+</InstancePath>
+<Position>-0.0057579426507981535 0 -0.0208654463595031</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_holder_2.step-1</Uid>
+</InstancePath>
+<Position>-0.002062635330852873 0.040999999999999995 0.0052120357029238305</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo mount.step-1</Uid>
+</InstancePath>
+<Position>-0.0040579426507981603 0.034000000000000002 -0.027</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_holder_2.step-1</Uid>
+</InstancePath>
+<Position>-0.0060626353308528627 0.040999999999999995 -0.0217879642970762</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo mount.step-1</Uid>
+</InstancePath>
+<Position>-0.0040579426507981603 0.025999999999999999 -0.027</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_holder_2.step-1</Uid>
+</InstancePath>
+<Position>0.0019373646691471375 0.040999999999999995 -0.0217879642970762</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_holder_2.step-1</Uid>
+</InstancePath>
+<Position>-0.002062635330852873 0 -0.0052879642970761701</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo SC15.step-2</Uid>
+</InstancePath>
+<Position>0.010500000000000001 -0.021299999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_holder_2.step-1</Uid>
+</InstancePath>
+<Position>0.0079373646691471497 0.0030000000000000027 -0.014787964297076201</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo SC15.step-2</Uid>
+</InstancePath>
+<Position>-0.02 0.020000000000000004 -0.010000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_holder_2.step-1</Uid>
+</InstancePath>
+<Position>-0.00206263533085288 0.0030000000000000027 0.0052120357029238409</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo SC15.step-2</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_holder_2.step-2</Uid>
+</InstancePath>
+<Position>-0.0020626353308528869 0.0029999999999999992 0.0052120357029238392</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo SC15.step-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_holder_2.step-2</Uid>
+</InstancePath>
+<Position>-0.002062635330852873 0 -0.0052879642970761701</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo SC15.step-1</Uid>
+</InstancePath>
+<Position>0.010500000000000002 -0.021299999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>-0.012500000000000001 0.0017000000000000001 -0.021000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>servo mount.step-3</Uid>
+</InstancePath>
+<Position>0 0 0.012500000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base plate.step-1</Uid>
+</InstancePath>
+<Position>0.012500000000000001 0 -0.021000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo mount.step-3</Uid>
+</InstancePath>
+<Position>0 0 -0.012500000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>servo_holder_2.step-2</Uid>
+</InstancePath>
+<Position>-0.0060626353308528835 0.041000000000000002 0.032212035702923802</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>servo mount.step-3</Uid>
+</InstancePath>
+<Position>-0.0057579426507981604 0.034000000000000002 0.026999999999999996</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_holder_2.step-2</Uid>
+</InstancePath>
+<Position>0.0019373646691471305 0.041000000000000002 0.032212035702923802</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo mount.step-3</Uid>
+</InstancePath>
+<Position>-0.0040579426507981603 0.034000000000000002 0.026999999999999996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_holder_2.step-2</Uid>
+</InstancePath>
+<Position>-0.0060626353308528627 0.041000000000000002 -0.021787964297076204</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo mount.step-3</Uid>
+</InstancePath>
+<Position>-0.0040579426507981603 0.034000000000000002 -0.027000000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_holder_2.step-2</Uid>
+</InstancePath>
+<Position>0.0079373646691471497 0.0029999999999999992 -0.014787964297076203</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo SC15.step-1</Uid>
+</InstancePath>
+<Position>-0.02 0.019999999999999997 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="A1P1.step" uid="A1P1.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="A1P1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015318107127194767</Mass>
+<CenterOfMass>-0.0071425095611009366 0.00085000000000000006 -0.019602956299428338</CenterOfMass>
+<Inertia>4.0716960270488149e-07 4.8942867920922421e-07 8.2996898664302529e-08 0 -1.3619622356483913e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="A1P1.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="A1P2.step" uid="A1P2.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="A1P2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0032875622509013114</Mass>
+<CenterOfMass>-0.085000000000000006 0.00084999999999999995 0</CenterOfMass>
+<Inertia>3.3226010736540238e-08 8.6632618935104554e-06 8.6316193919247662e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="A1P2.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="A1P3.step" uid="A1P3.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="A1P3.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0077035567416120602</Mass>
+<CenterOfMass>-0.013001905754301123 0.00084999999999999995 -0.12250034271105467</CenterOfMass>
+<Inertia>4.6956511281449147e-05 4.7276137806490685e-05 3.2333707153875462e-07 0 -6.2212143526109524e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="A1P3.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="A2P1.step" uid="A2P1.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="A2P1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024765716496052172</Mass>
+<CenterOfMass>0 0.00084999999999999995 -0.085000000000000006</CenterOfMass>
+<Inertia>6.8118949319555128e-06 6.8254126277503383e-06 1.4710577806052306e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="A2P1.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="A2P2.step" uid="A2P2.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="A2P2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015162361123339512</Mass>
+<CenterOfMass>0.0064433874707818519 0.00084999999999999995 -0.025703629141369911</CenterOfMass>
+<Inertia>3.2416321268566165e-07 3.8291602497431613e-07 5.9483132674556598e-08 0 -2.3637144405613643e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="A2P2.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="A2P3.step" uid="A2P3.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="A2P3.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015834487131762733</Mass>
+<CenterOfMass>0 0.00084999999999998759 -0.10000000000000075</CenterOfMass>
+<Inertia>6.8057128325885573e-06 6.8094059946403348e-06 4.4558565152910599e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="A2P3.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="A2P4.step" uid="A2P4.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="A2P4.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0063898905103460229</Mass>
+<CenterOfMass>0.0030361742902525928 0.00084999999999999995 0.0020416048102902839</CenterOfMass>
+<Inertia>1.5365311891215416e-05 1.5621837613003678e-05 2.5960351905074429e-07 0 1.6529139682368462e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="A2P4.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm 3 Part 1.step" uid="Arm 3 Part 1.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Arm 3 Part 1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0075857598211760439</Mass>
+<CenterOfMass>0.10182012870324124 0.00084999999999999995 -0.014501439036297078</CenterOfMass>
+<Inertia>3.5264334334197109e-07 2.7542011399675845e-05 2.7193021863981073e-05 0 6.9500395606906674e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="Arm 3 Part 1.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm 3 Part 2.step" uid="Arm 3 Part 2.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Arm 3 Part 2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0064259402860459627</Mass>
+<CenterOfMass>0.0053639594780116708 0.00084999999999999995 -0.08500000000000002</CenterOfMass>
+<Inertia>1.5627351024884007e-05 1.588501253274304e-05 2.6075666909681375e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Arm 3 Part 2.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm 3 Part 3.step" uid="Arm 3 Part 3.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Arm 3 Part 3.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0017636149539971098</Mass>
+<CenterOfMass>0.014352182204812065 0.0019995796574956595 0</CenterOfMass>
+<Inertia>8.0041650867231901e-08 3.4134327687950622e-07 2.8719321384117728e-07 0 0 -3.0001330709921359e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Arm 3 Part 3.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo SC15.step" uid="Servo SC15.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Servo SC15.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031772082359619792</Mass>
+<CenterOfMass>0.00017553384579384394 -2.8935502276468942e-05 -3.2292500956877104e-05</CenterOfMass>
+<Inertia>5.4269969424673792e-06 5.1271059221188985e-06 8.5171790792936557e-06 -1.2228312174664234e-08 4.9499022742154501e-09 -6.9713754896647296e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Servo SC15.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base plate.step" uid="base plate.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="base plate.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0084009329149644686</Mass>
+<CenterOfMass>0 0.00085000000000000006 0</CenterOfMass>
+<Inertia>3.3933901853208335e-06 6.7871680436987186e-06 3.3978243077319263e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base plate.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gripper servo mount.step" uid="gripper servo mount.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="gripper servo mount.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0078472035600918987</Mass>
+<CenterOfMass>-0.0061678913228837128 0.0095910019602388156 -0.0081101779204424476</CenterOfMass>
+<Inertia>4.7625478418832639e-06 5.2383999982106655e-06 1.8851674217310357e-06 1.2298052741603525e-07 5.6555654121596386e-08 -4.0213965152853456e-07</Inertia>
+</MassProperties>
+<GeometryFile name="gripper servo mount.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="noWasher" uid="noWasher*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="noWasher.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.272566008882119e-05</Mass>
+<CenterOfMass>-0.0015407142104909264 0.0017000000000000001 0</CenterOfMass>
+<Inertia>8.3884712641052249e-11 8.5451320177642386e-11 8.3884712641052262e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="noWasher_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo mount.step" uid="servo mount.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="servo mount.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0049377488950642801</Mass>
+<CenterOfMass>-0.0041301643645640113 0.023221522146200192 0</CenterOfMass>
+<Inertia>3.5435578912870634e-06 2.0856732398252335e-06 1.5088194805375673e-06 0 0 8.5920107812628847e-08</Inertia>
+</MassProperties>
+<GeometryFile name="servo mount.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo_holder_2.step" uid="servo_holder_2.step*:*Default" version="114">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="servo_holder_2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018990913472213457</Mass>
+<CenterOfMass>-0.0021716041222423644 0.019508023028620102 0.0054861505652686673</CenterOfMass>
+<Inertia>8.4376029653502269e-06 6.9089662676342777e-06 5.0171169091638933e-06 8.5337151223558342e-08 -1.0912509560812362e-08 -1.7605483837581022e-08</Inertia>
+</MassProperties>
+<GeometryFile name="servo_holder_2.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="washer_4x" uid="washer_4x*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="washer_4x.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00044484951974831463</Mass>
+<CenterOfMass>-0.034437957411642281 0.0040000000000000001 0</CenterOfMass>
+<Inertia>4.811185786154783e-09 3.3024421974535877e-09 4.8111857861547821e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="washer_4x_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

@@ -1,0 +1,163 @@
+% Simscape(TM) Multibody(TM) version: 24.2
+
+% This is a model data file derived from a Simscape Multibody Import XML file using the smimport function.
+% The data in this file sets the block parameter values in an imported Simscape Multibody model.
+% For more information on this file, see the smimport function help page in the Simscape Multibody documentation.
+% You can modify numerical values, but avoid any other changes to this file.
+% Do not add code to this file. Do not edit the physical units shown in comments.
+
+%%%VariableName:smiData
+
+
+%============= RigidTransform =============%
+
+%Initialize the RigidTransform structure array by filling in null values.
+smiData.RigidTransform(13).translation = [0.0 0.0 0.0];
+smiData.RigidTransform(13).angle = 0.0;
+smiData.RigidTransform(13).axis = [0.0 0.0 0.0];
+smiData.RigidTransform(13).ID = "";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(1).translation = [0 1.7000000000000002 0];  % mm
+smiData.RigidTransform(1).angle = 2.0943951023931953;  % rad
+smiData.RigidTransform(1).axis = [-0.57735026918962584 -0.57735026918962584 -0.57735026918962584];
+smiData.RigidTransform(1).ID = "B[base plate.step-1:-:servo mount.step-1]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(2).translation = [21 -2.5717582782094413e-15 3.5527136788005009e-15];  % mm
+smiData.RigidTransform(2).angle = 3.1415926535897931;  % rad
+smiData.RigidTransform(2).axis = [-3.3862249825370507e-17 0.70710678118654757 0.70710678118654757];
+smiData.RigidTransform(2).ID = "F[base plate.step-1:-:servo mount.step-1]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(3).translation = [0 1.7000000000000002 0];  % mm
+smiData.RigidTransform(3).angle = 2.0943951023931953;  % rad
+smiData.RigidTransform(3).axis = [-0.57735026918962584 -0.57735026918962584 -0.57735026918962584];
+smiData.RigidTransform(3).ID = "B[base plate.step-1:-:servo mount.step-2]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(4).translation = [21 -6.1244719570099422e-15 -7.1054273576010019e-15];  % mm
+smiData.RigidTransform(4).angle = 1.5707963267948966;  % rad
+smiData.RigidTransform(4).axis = [-1 1.3973696289155642e-16 7.8504622934188758e-17];
+smiData.RigidTransform(4).ID = "F[base plate.step-1:-:servo mount.step-2]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(5).translation = [0 -20.000000000000004 0];  % mm
+smiData.RigidTransform(5).angle = 2.0943951023931953;  % rad
+smiData.RigidTransform(5).axis = [0.57735026918962584 -0.57735026918962584 0.57735026918962584];
+smiData.RigidTransform(5).ID = "B[Servo SC15.step-1:-:servo_holder_2.step-1]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(6).translation = [-2.0626353308528702 3 5.2120357029238331];  % mm
+smiData.RigidTransform(6).angle = 1.570796326794897;  % rad
+smiData.RigidTransform(6).axis = [1 -7.8504622934188734e-17 -7.8504622934188758e-17];
+smiData.RigidTransform(6).ID = "F[Servo SC15.step-1:-:servo_holder_2.step-1]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(7).translation = [20 19.999999999999996 -9.9999999999999947];  % mm
+smiData.RigidTransform(7).angle = 2.0943951023931953;  % rad
+smiData.RigidTransform(7).axis = [0.57735026918962584 0.57735026918962584 0.57735026918962584];
+smiData.RigidTransform(7).ID = "B[Servo SC15.step-2:-:servo_holder_2.step-2]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(8).translation = [-12.062635330852869 43.000000000000021 -14.787964297076172];  % mm
+smiData.RigidTransform(8).angle = 3.1415926535897931;  % rad
+smiData.RigidTransform(8).axis = [-0.70710678118654757 -0.70710678118654746 8.3266726846886765e-17];
+smiData.RigidTransform(8).ID = "F[Servo SC15.step-2:-:servo_holder_2.step-2]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(9).translation = [-2.0626353308528729 40.999999999999993 5.2120357029238304];  % mm
+smiData.RigidTransform(9).angle = 2.0943951023931953;  % rad
+smiData.RigidTransform(9).axis = [-0.57735026918962584 -0.57735026918962584 -0.57735026918962584];
+smiData.RigidTransform(9).ID = "B[servo_holder_2.step-1:-:servo mount.step-1]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(10).translation = [-5.7579426507981468 29.999999999999979 -2.6645352591003757e-14];  % mm
+smiData.RigidTransform(10).angle = 1.5707963267948961;  % rad
+smiData.RigidTransform(10).axis = [5.721188726109821e-18 1 -1.1674349118862552e-16];
+smiData.RigidTransform(10).ID = "F[servo_holder_2.step-1:-:servo mount.step-1]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(11).translation = [-2.06263533085288 41 5.2120357029238322];  % mm
+smiData.RigidTransform(11).angle = 2.0943951023931953;  % rad
+smiData.RigidTransform(11).axis = [-0.57735026918962584 -0.57735026918962584 -0.57735026918962584];
+smiData.RigidTransform(11).ID = "B[servo_holder_2.step-2:-:servo mount.step-2]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(12).translation = [-5.7579426507981655 29.999999999999989 -3.8191672047105385e-14];  % mm
+smiData.RigidTransform(12).angle = 1.5707963267948968;  % rad
+smiData.RigidTransform(12).axis = [6.123233995736766e-17 1 1.6081226496766364e-16];
+smiData.RigidTransform(12).ID = "F[servo_holder_2.step-2:-:servo mount.step-2]";
+
+%Translation Method - Cartesian
+%Rotation Method - Arbitrary Axis
+smiData.RigidTransform(13).translation = [17.137592318389931 22.585749924297357 36.71975576813643];  % mm
+smiData.RigidTransform(13).angle = 0;  % rad
+smiData.RigidTransform(13).axis = [0 0 0];
+smiData.RigidTransform(13).ID = "RootGround[base plate.step-1]";
+
+
+%============= Solid =============%
+%Center of Mass (CoM) %Moments of Inertia (MoI) %Product of Inertia (PoI)
+
+%Initialize the Solid structure array by filling in null values.
+smiData.Solid(4).mass = 0.0;
+smiData.Solid(4).CoM = [0.0 0.0 0.0];
+smiData.Solid(4).MoI = [0.0 0.0 0.0];
+smiData.Solid(4).PoI = [0.0 0.0 0.0];
+smiData.Solid(4).color = [0.0 0.0 0.0];
+smiData.Solid(4).opacity = 0.0;
+smiData.Solid(4).ID = "";
+
+%Inertia Type - Custom
+%Visual Properties - Simple
+smiData.Solid(1).mass = 0.031772082359619792;  % kg
+smiData.Solid(1).CoM = [0.00017553384579384418 -2.8935502276469064e-05 -3.229250095687707e-05];  % m
+smiData.Solid(1).MoI = [5.4269969424673792e-06 5.1271059221188968e-06 8.5171790792936557e-06];  % kg*m^2
+smiData.Solid(1).PoI = [-1.2228312174664239e-08 4.949902274215446e-09 -6.9713754896647519e-09];  % kg*m^2
+smiData.Solid(1).color = [0.792156862745098 0.81960784313725488 0.93333333333333335];
+smiData.Solid(1).opacity = 1;
+smiData.Solid(1).ID = "Servo SC15.step*:*Default";
+
+%Inertia Type - Custom
+%Visual Properties - Simple
+smiData.Solid(2).mass = 0.0084009329149644686;  % kg
+smiData.Solid(2).CoM = [0 0.00085000000000000006 0];  % m
+smiData.Solid(2).MoI = [3.3933901853208335e-06 6.7871680436987186e-06 3.3978243077319263e-06];  % kg*m^2
+smiData.Solid(2).PoI = [0 0 0];  % kg*m^2
+smiData.Solid(2).color = [0.74901960784313726 0.74901960784313726 0.74901960784313726];
+smiData.Solid(2).opacity = 1;
+smiData.Solid(2).ID = "base plate.step*:*Default";
+
+%Inertia Type - Custom
+%Visual Properties - Simple
+smiData.Solid(3).mass = 0.018990913472213461;  % kg
+smiData.Solid(3).CoM = [-0.0021716041222423648 0.019508023028620102 0.0054861505652686673];  % m
+smiData.Solid(3).MoI = [8.4376029653502303e-06 6.9089662676342786e-06 5.0171169091638941e-06];  % kg*m^2
+smiData.Solid(3).PoI = [8.5337151223558342e-08 -1.0912509560812375e-08 -1.7605483837581009e-08];  % kg*m^2
+smiData.Solid(3).color = [0.74901960784313726 0.74901960784313726 0.74901960784313726];
+smiData.Solid(3).opacity = 1;
+smiData.Solid(3).ID = "servo_holder_2.step*:*Default";
+
+%Inertia Type - Custom
+%Visual Properties - Simple
+smiData.Solid(4).mass = 0.0049377488950642827;  % kg
+smiData.Solid(4).CoM = [-0.0041301643645640079 0.023221522146200199 0];  % m
+smiData.Solid(4).MoI = [3.5435578912870625e-06 2.0856732398252335e-06 1.5088194805375669e-06];  % kg*m^2
+smiData.Solid(4).PoI = [0 0 8.5920107812628754e-08];  % kg*m^2
+smiData.Solid(4).color = [0.74901960784313726 0.74901960784313726 0.74901960784313726];
+smiData.Solid(4).opacity = 1;
+smiData.Solid(4).ID = "servo mount.step*:*Default";
+

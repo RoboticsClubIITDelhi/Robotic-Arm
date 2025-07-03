@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            version="2.0">
+   <Created by="verchasv garg" from="Onshape" on="06/16/25||15:22:03"
+            using="Simscape Multibody Exporter"/>
+   <ModelUnits length="millimeter" mass="pound"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="Assembly1" uid="ddd535c90c64567eca394daa"
+                 version="w-5b813b8ba258c5b90e39a5d9">
+      <InstanceTree>
+         <Instance entityUid="JFP*:*a27633b6c2be15a66a62b13a" name="A2P2 &lt;1&gt;"
+                   uid="M/Bhz0SSHX1ukR0ld">
+            <Transform>
+               <Rotation>-0.017850840 -0.000000000 -0.999840661 -0.999840661 -0.000000000 0.017850840 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.114510949 0.198850875 0.021657943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF3*:*a27633b6c2be15a66a62b13a" name="A2P1 &lt;1&gt;"
+                   uid="M/Fji1xoo9oDPylgM">
+            <Transform>
+               <Rotation>-0.868791881 -0.000000000 -0.495177410 -0.495177410 -0.000000000 0.868791881 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.058490877 0.197850711 0.023357943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*a27633b6c2be15a66a62b13a" name="screw3 &lt;1&gt;"
+                   uid="M/GCQ4zu5/G4Mek6l">
+            <Transform>
+               <Rotation>0.998574298 0.000000000 -0.053379499 -0.053379499 0.000000000 -0.998574298 -0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>-0.057375430 0.209613237 -0.019507943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFX*:*a27633b6c2be15a66a62b13a" name="A2P4 &lt;1&gt;"
+                   uid="M/oXyh3XN+Saae3g5">
+            <Transform>
+               <Rotation>-0.868791881 0.000000000 -0.495177410 -0.495177410 0.000000000 0.868791881 0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.055175952 0.101478643 0.019207943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*a27633b6c2be15a66a62b13a" name="screw &lt;6&gt;"
+                   uid="M0tO761mnDmFceCFw">
+            <Transform>
+               <Rotation>0.950380093 -0.000000000 -0.311091110 -0.311091110 0.000000000 -0.950380093 0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.114510949 0.198850875 0.018357943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*a27633b6c2be15a66a62b13a" name="screw &lt;5&gt;"
+                   uid="M2z1PDbAAxkQh5V1z">
+            <Transform>
+               <Rotation>0.647547543 -0.000000000 0.762025052 0.762025052 -0.000000000 -0.647547543 0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>-0.058490877 0.197850711 0.020057943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFDB*:*a27633b6c2be15a66a62b13a" name="servo_holder_2 &lt;1&gt;"
+                   uid="M35e7hn9j0rU39Dsv">
+            <Transform>
+               <Rotation>-0.000000000 -0.000000000 -1.000000000 -1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>0.003901319 0.028093456 -0.067757943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFz*:*a27633b6c2be15a66a62b13a" name="A2P3 &lt;1&gt;"
+                   uid="M3VbOzWEkUsCZgCcC">
+            <Transform>
+               <Rotation>0.636855800 0.000000000 -0.770982937 -0.770982937 0.000000000 -0.636855800 0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>-0.268707723 0.071479551 0.019207943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*a27633b6c2be15a66a62b13a" name="screw &lt;2&gt;"
+                   uid="M3t6Cw1/YgRqSxA9z">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.011810717 0.030156091 -0.002000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF/*:*a27633b6c2be15a66a62b13a" name="servo mount &lt;1&gt;"
+                   uid="M6C9lqTM/CLPvGElt">
+            <Transform>
+               <Rotation>-0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -0.000000000 </Rotation>
+               <Translation>-0.001310717 0.000156091 -0.021000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFHB*:*a27633b6c2be15a66a62b13a" name="base plate &lt;1&gt;"
+                   uid="M86fSMAFECz6VhYFd">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>-0.001310717 -0.001543909 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF7*:*a27633b6c2be15a66a62b13a" name="Servo SC15 &lt;2&gt;"
+                   uid="MAKnLz+s5M2OxFnkU">
+            <Transform>
+               <Rotation>1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.001310717 0.030156091 -0.044757943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="KFDB*:*a27633b6c2be15a66a62b13a" name="servo_holder_2 &lt;2&gt;"
+                   uid="MATHwtNvvYtXG5jma">
+            <Transform>
+               <Rotation>0.000000000 -0.000000000 1.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.006522753 0.028093456 0.067757943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF/*:*a27633b6c2be15a66a62b13a" name="servo mount &lt;2&gt;"
+                   uid="MBUQ5z1cqZxRjmkjm">
+            <Transform>
+               <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+               <Translation>-0.001310717 0.000156091 0.021000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFv*:*a27633b6c2be15a66a62b13a" name="A1P1 &lt;1&gt;"
+                   uid="MC8JuS22c7voxIqlX">
+            <Transform>
+               <Rotation>-0.954754925 -0.000000000 -0.297393733 0.297393733 -0.000000000 -0.954754925 -0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>0.009189283 0.030156091 -0.019207943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFb*:*a27633b6c2be15a66a62b13a" name="Arm 3 Part 3 &lt;1&gt;"
+                   uid="MDAKdYEMkW7frWq7J">
+            <Transform>
+               <Rotation>0.000000000 -0.000000000 -1.000000000 -1.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.011810717 0.030156091 0.000800000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFr*:*a27633b6c2be15a66a62b13a" name="A1P2 &lt;1&gt;"
+                   uid="MJ6U/oqMo6aWlY5ZE">
+            <Transform>
+               <Rotation>0.569873890 0.000000000 -0.821732164 -0.821732164 0.000000000 -0.569873890 0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>0.039503132 0.069918769 -0.019207943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*a27633b6c2be15a66a62b13a" name="screw &lt;3&gt;"
+                   uid="MKaxxy2CeLKbEKh/o">
+            <Transform>
+               <Rotation>-0.830641347 0.000000000 -0.556807824 0.556807824 -0.000000000 -0.830641347 -0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>0.039503132 0.069918769 -0.016207943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*a27633b6c2be15a66a62b13a" name="screw2 &lt;2&gt;"
+                   uid="MSv8jsUCdEvGTKyFD">
+            <Transform>
+               <Rotation>0.983613758 -0.000000000 0.180288589 -0.180288589 -0.000000000 0.983613758 0.000000000 -1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.250187464 0.050479551 0.023607943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFf*:*a27633b6c2be15a66a62b13a" name="Arm 3 Part 2 &lt;1&gt;"
+                   uid="MfOiIhmITZu8BpF8P">
+            <Transform>
+               <Rotation>-0.868791881 0.000000000 0.495177410 -0.495177410 -0.000000000 -0.868791881 0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>-0.011810717 0.030156091 0.000800000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JF7*:*a27633b6c2be15a66a62b13a" name="Servo SC15 &lt;1&gt;"
+                   uid="MgfREKiRi3LBHdIrr">
+            <Transform>
+               <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>-0.001310717 0.030156091 0.044757943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFT*:*a27633b6c2be15a66a62b13a" name="gripper servo mount &lt;1&gt;"
+                   uid="MhYbPUPVyL0S7dx9v">
+            <Transform>
+               <Rotation>0.000000000 -0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 1.000000000 0.000000000 0.000000000 </Rotation>
+               <Translation>-0.290553956 0.040779551 0.014207943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFn*:*a27633b6c2be15a66a62b13a" name="A1P3 &lt;1&gt;"
+                   uid="MiGNd8oYGpatpexxI">
+            <Transform>
+               <Rotation>0.636855800 -0.000000000 0.770982937 -0.770982937 -0.000000000 0.636855800 0.000000000 -1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.057375430 0.209613237 -0.007392057 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*a27633b6c2be15a66a62b13a" name="screw &lt;4&gt;"
+                   uid="Mk1gmj7Z/unIj/eMO">
+            <Transform>
+               <Rotation>-0.488199634 0.000000000 0.872731985 0.872731985 0.000000000 0.488199634 -0.000000000 1.000000000 -0.000000000 </Rotation>
+               <Translation>-0.268707723 0.071479551 0.015907943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*a27633b6c2be15a66a62b13a" name="screw2 &lt;1&gt;"
+                   uid="Mv0YFwiV4W6RpxqfW">
+            <Transform>
+               <Rotation>0.950380093 0.000000000 0.311091110 -0.311091110 0.000000000 0.950380093 0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>-0.095990877 0.177850711 0.025357943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFj*:*a27633b6c2be15a66a62b13a" name="Arm 3 Part 1 &lt;1&gt;"
+                   uid="MvkwfVMrxtakVVJl4">
+            <Transform>
+               <Rotation>0.770982937 -0.000000000 0.636855800 0.636855800 0.000000000 -0.770982937 -0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>-0.250187464 0.050479551 0.015807943 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*a27633b6c2be15a66a62b13a" name="screw &lt;1&gt;"
+                   uid="MwZxcsI1/DKgL3E36">
+            <Transform>
+               <Rotation>1.000000000 -0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+               <Translation>0.025689283 0.050156091 0.028357943 </Translation>
+            </Transform>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints/>
+   </RootAssembly>
+   <Assemblies/>
+   <Parts>
+      <Part name="screw3" uid="JFD*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw" uid="JFH*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="screw2" uid="JFL*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="screw2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="A2P2" uid="JFP*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="A2P2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="gripper servo mount" uid="JFT*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="gripper servo mount.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="A2P4" uid="JFX*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="A2P4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Arm 3 Part 3" uid="JFb*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Arm 3 Part 3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Arm 3 Part 2" uid="JFf*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Arm 3 Part 2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Arm 3 Part 1" uid="JFj*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Arm 3 Part 1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="A1P3" uid="JFn*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="A1P3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="A1P2" uid="JFr*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="A1P2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="A1P1" uid="JFv*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="A1P1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="A2P3" uid="JFz*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="A2P3.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="A2P1" uid="JF3*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="A2P1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Servo SC15" uid="JF7*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Servo SC15.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.933333333" g="0.819607843" r="0.792156863"/>
+            <Diffuse a="1.000000000" b="0.933333333" g="0.819607843" r="0.792156863"/>
+            <Specular a="1.000000000" b="0.933333333" g="0.819607843" r="0.792156863"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="servo mount" uid="JF/*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="servo mount.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="servo_holder_2" uid="KFDB*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="servo_holder_2.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="base plate" uid="KFHB*:*a27633b6c2be15a66a62b13a">
+         <ModelUnits length="millimeter" mass="pound"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="base plate.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Diffuse a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Specular a="1.000000000" b="0.749019608" g="0.749019608" r="0.749019608"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>

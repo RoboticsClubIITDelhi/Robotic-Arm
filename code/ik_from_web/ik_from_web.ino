@@ -86,6 +86,83 @@ int pamphlet = 2;
 #include <bits/stdc++.h>
 using namespace std;
 
+// Convert degrees ↔ radians
+double deg2rad(double deg) { return deg * M_PI / 180.0; }
+double rad2deg(double rad) { return rad * 180.0 / M_PI; }
+
+// Normalize angle to [0, 2π)
+double normalizeAngle(double ang) {
+    ang = fmod(ang, 2 * M_PI);
+    if (ang < 0) ang += 2 * M_PI;
+    return ang;
+}
+
+// Solve inverse kinematics for given x, y
+vector<pair<double, double>> solveInverseKinematics(double x, double y) {
+    const double l1 = 170.0;
+    const double l3 = 200.0;
+
+    vector<pair<double, double>> solutions;
+
+    double R = sqrt(x * x + y * y);
+    double alpha = atan2(y, x);
+    double K = (x * x + y * y + l1 * l1 - l3 * l3) / (2 * l1);
+
+    // Check reachability
+    if (fabs(K) > R) return solutions;
+
+    double delta = acos(K / R);
+    vector<double> theta1_candidates = { alpha + delta, alpha - delta };
+
+    for (double th1 : theta1_candidates) {
+        double c2 = (x - l1 * cos(th1)) / l3;
+        double s2 = (y - l1 * sin(th1)) / l3;
+        double th2 = atan2(s2, c2);
+
+        double th1n = normalizeAngle(th1);
+        double th2n = normalizeAngle(th2);
+
+        if (th1n > th2n) {
+            solutions.emplace_back(rad2deg(th1n), rad2deg(th2n));
+        }
+    }
+
+    return solutions;
+}
+
+
+uint8_t ID[2];
+uint16_t Position[2];
+uint16_t Speed[2];
+
+
+void setup() {
+  Serial.begin(115200);
+  while(!Serial) {}
+
+  espNowInit();
+
+  getMAC();
+  
+  boardDevInit();
+
+  RGBcolor(0, 64, 255);
+
+  servoInit();
+
+  wifiInit();
+
+  webServerSetup();
+
+  RGBoff();
+
+  delay(1000);
+  pingAll(true);
+
+  threadInit();
+
+}
+
 void smoothMove3Servos(uint8_t servo1ID, uint8_t servo2ID, uint8_t servo3ID, int16_t target1, int16_t target2, int16_t target3, int steps, int stepDelay) {
     
     // Get current positions
@@ -217,6 +294,43 @@ void loop() {
 // dispaly the newest information on the screen.
 // screenUpdate();
 void dance() {
-        adaptiveSmoothMove(1,2,3,501, 660, 250);
-        adaptiveSmoothMove(1,2,3,990, 870, 440);
+    int theta = -90;
+    int r = 250;
+    int z = 200;
+    vector<pair<double, double>> angles = solveInverseKinematics(r, z);
+    if (angles.empty()) {} 
+    else {
+      double theta_1 = angles[0].first;
+      double theta_2 = angles[0].second;
+      if(theta_1>30 and theta_1<150 and theta_2<20 and theta_2>-50){
+        int off_1 = 517;
+        int off_2 = 766;
+        int off_3 = 283;
+        int s1 = off_1 - theta*1024/180;
+        int s2 = off_2 - (theta_1-90)*1024/180;
+        int s3 = off_3 - (theta_2)*1024/180;
+        adaptiveSmoothMove(1,2,3, static_cast<int16_t>(s1),static_cast<int16_t>(s2),static_cast<int16_t>(s3));
+      }
+    }
+}
+void ik(int cmdI, int cmdA,int cmdB){
+    int theta = cmdA;
+    int r = cmdI;
+    int z = cmdB;
+    vector<pair<double, double>> angles = solveInverseKinematics(r, z);
+    if (angles.empty()) {} 
+    else {
+      double theta_1 = angles[0].first;
+      double theta_2 = angles[0].second;
+      if(theta_1>30 and theta_1<150 and theta_2<20 and theta_2>-50){
+        int off_1 = 517;
+        int off_2 = 766;
+        int off_3 = 283;
+        int s1 = off_1 - theta*1024/180;
+        int s2 = off_2 - (theta_1-90)*1024/180;
+        int s3 = off_3 + (theta_2)*1024/180;
+        adaptiveSmoothMove(1,2,3, static_cast<int16_t>(s1),static_cast<int16_t>(s2),static_cast<int16_t>(s3));
+      }
+    }
+
 }

@@ -323,9 +323,9 @@ void ik(int cmdI, int cmdA,int cmdB){
       double theta_1 = angles[0].first;
       double theta_2 = angles[0].second;
       if(theta_1>30 and theta_1<150 and theta_2<20 and theta_2>-50){
-        int off_1 = 517;
-        int off_2 = 766;
-        int off_3 = 283;
+        int off_1 = 462;
+        int off_2 = 771;
+        int off_3 = 710;
         int s1 = off_1 - theta*1024/180;
         int s2 = off_2 - (theta_1-90)*1024/180;
         int s3 = off_3 + (theta_2)*1024/180;

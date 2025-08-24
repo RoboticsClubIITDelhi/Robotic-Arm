@@ -362,11 +362,11 @@ void dance() {
   delay(500);
   adaptiveSmoothMove(1,2,3, static_cast<int16_t>(480),static_cast<int16_t>(845),static_cast<int16_t>(385));
   delay(500);
-  st.WritePosEx(4,800,500,0);
+  st.WritePosEx(4,650,500,0);
   delay(1000);
   adaptiveSmoothMove(1,2,3, static_cast<int16_t>(480),static_cast<int16_t>(920),static_cast<int16_t>(500));
   delay(500);
-  st.WritePosEx(4,420,500,0);
+  st.WritePosEx(4,150,500,0);
   delay(1000);
   adaptiveSmoothMove(1,2,3, static_cast<int16_t>(480),static_cast<int16_t>(870),static_cast<int16_t>(800));
   delay(500);

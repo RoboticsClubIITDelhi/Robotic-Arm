@@ -235,7 +235,7 @@ void webCtrlServer(){
           Serial.println("Unknown command type");
           break;
       case 28:
-        st.WritePosEx(4, cmdI*4+420, 500, 0);
+        st.WritePosEx(4, cmdI*4+150, 500, 0);
     }
   });
 

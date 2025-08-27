@@ -30,33 +30,17 @@ This repository is intended to manage the codebase for the **Robotics Arm summer
 Need to break each tasks for ease and also distrubute the task day wise.
 For now this is just an overview.
 ### 🔧 Hardware Upgrades
-- [ ] Design motor mounts for SC15 servos
-- [ ] Redesign and upload CAD files for the new gripper
-- [ ] Replace all motors with SC15 servos
-- [ ] Integrate SC15 servo driver with ESP32 
-- [ ] Add 6–12V battery power source
+- [x] Design motor mounts for SC15 servos
+- [x] Redesign and upload CAD files for the new gripper
+- [x] Replace all motors with SC15 servos
+- [x] Integrate SC15 servo driver with ESP32 
+- [x] Add 6–12V battery power source
 
 
 ### 🧠 Software Tasks
-- [ ] Implement inverse kinematics (approximate solution acceptable)
-- [ ] Develop cylindrical coordinate-based controls `[r, h, φ]`
-- [ ] Build a basic web UI for wireless control (refer to Waveshare demo)
-
-## Timeline 
-### Week 1: Planning & Design
-!todo()
-
-### Week 2: Initial Implementation
-!todo()
-
-### Week 3: Core Functionality
-!todo()
-
-### Week 4: Integration & Testing
-!todo()
-
-### Week 5: Refinement
-!todo()
+- [x] Implement inverse kinematics (approximate solution acceptable)
+- [x] Develop cylindrical coordinate-based controls `[r, h, φ]`
+- [x] Build a basic web UI for wireless control (refer to Waveshare demo)
 
 ## 📚 Resources
 

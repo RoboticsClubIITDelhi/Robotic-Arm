@@ -47,7 +47,7 @@ $(x − 170cosα)² + (y − 170sinα)² = 50²$
 
 ### Circle 2 (Link 2 endpoint):
 
-$(x + 20 + 50cosβ)^2 + (y - 50cosβ)^2 = 170^2$
+$(x + 21 + 50cosβ)^2 + (y - 50cosβ)^2 = 170^2$
 
 These equations represent the geometric constraints on a joint indicated by **X** in the figure.
 
@@ -58,7 +58,7 @@ To find the intersection points of the two circles:
 Let’s denote:
 - $x_0 = 170cosα$
 - $y_0 = 170sinα$
-- $x_1 = -20-50cosβ$
+- $x_1 = -21-50cosβ$
 - $y_1 = 50cosβ$
 
 1. Compute the distance d between centers:

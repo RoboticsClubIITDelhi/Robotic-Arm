@@ -5,7 +5,7 @@ import HandTrackingModule as htm
 import math
 import requests
 ################################
-wCam, hCam = 1700, 1500
+wCam, hCam = 1300, 1000
 ################################
 
 cap = cv2.VideoCapture(0)
